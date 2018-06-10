@@ -6,6 +6,23 @@ header {
 
 footer {
   background-color: thistle;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog {
+  background-color: aqua;
+  margin-left: auto;
+}
+
+.side-nav-left, .side-nav-right {
+  display: none;
 }
 
 /* tablet and up */
