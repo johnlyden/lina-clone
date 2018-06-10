@@ -21,13 +21,35 @@ footer {
   margin-left: auto;
 }
 
-.side-nav-left, .side-nav-right {
-  display: none;
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-nav-left {
+  position: absolute;
+  left: 17px;
+  top: 200px;
+}
+
+.side-nav-right {
+  position: absolute;
+  right: 17px;
+  top: 200px;
+}
+
+.big-only {
+  display:none;
 }
 
 /* tablet and up */
 @media screen and (min-width: 768px) {
-
+  .side-nav-left, .side-nav-right {
+    display: none;
+  }
+  .big-only {
+    display: block;
+  }
 }
 
 /* desktop and up */
