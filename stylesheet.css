@@ -1,7 +1,12 @@
 
-
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 60px;
+  color: black;
+  letter-spacing: 0.0425em;
+}
 header {
-  background-color: aliceblue;
+  background-color: transparent;
 }
 
 footer {
@@ -23,24 +28,35 @@ footer {
 
 .top-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  font-family: 'Francois One', sans-serif;
+  font-size: 32px;
 }
 
 .side-nav-left {
   position: absolute;
   left: 17px;
   top: 200px;
+  transform: rotate(90deg);
 }
 
 .side-nav-right {
   position: absolute;
   right: 17px;
   top: 200px;
+  transform: rotate(90deg);
 }
 
 .big-only {
   display:none;
 }
+
+
+html { 
+  background: url("helga.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
 
 /* tablet and up */
 @media screen and (min-width: 768px) {
@@ -50,7 +66,13 @@ footer {
   .big-only {
     display: block;
   }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
+
 
 /* desktop and up */
 @media screen and (min-width: 1024px) {
