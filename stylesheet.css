@@ -1,9 +1,10 @@
 
 .logo {
   font-family: 'Cinzel', serif;
-  font-size: 60px;
-  color: black;
+  font-size: 40px;
   letter-spacing: 0.0425em;
+  text-decoration: none;
+  
 }
 header {
   background-color: transparent;
@@ -19,6 +20,7 @@ footer {
 .bottom-nav {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .blog {
@@ -38,6 +40,7 @@ footer {
   left: 17px;
   top: 200px;
   transform: rotate(90deg);
+  text-decoration: none;  
 }
 
 .side-nav-right {
@@ -45,6 +48,7 @@ footer {
   right: 17px;
   top: 200px;
   transform: rotate(90deg);
+  text-decoration: none;
 }
 
 .big-only {
@@ -65,11 +69,22 @@ html {
   }
   .big-only {
     display: block;
+    text-decoration: none;
   }
 
   .top-nav {
     display: flex;
     justify-content: space-between;
+  }
+
+  .logo {
+    transition: font-size 0.5s ease;
+    font-size: 60px;
+  }
+
+  .logo:hover {
+    opacity: 1;
+    font-size: 80px;
   }
 }
 
