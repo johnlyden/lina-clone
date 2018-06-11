@@ -4,6 +4,7 @@
   font-size: 40px;
   letter-spacing: 0.0425em;
   text-decoration: none;
+  transition: font-size 0.5s ease;
   
 }
 header {
@@ -31,11 +32,12 @@ footer {
 .top-nav {
   display: flex;
   justify-content: center;
-  font-family: 'Francois One', sans-serif;
-  font-size: 32px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 28px;
 }
 
 .side-nav-left {
+  font-size: 20px;
   position: absolute;
   left: 17px;
   top: 200px;
@@ -44,6 +46,7 @@ footer {
 }
 
 .side-nav-right {
+  font-size: 20px;  
   position: absolute;
   right: 17px;
   top: 200px;
@@ -83,8 +86,7 @@ html {
   }
 
   .logo:hover {
-    opacity: 1;
-    font-size: 80px;
+    font-size: 69px;
   }
 }
 
