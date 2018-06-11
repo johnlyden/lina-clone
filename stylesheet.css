@@ -5,7 +5,7 @@
   letter-spacing: 0.0425em;
   text-decoration: none;
   transition: font-size 0.5s ease;
-  
+  color: rgba(227, 56, 124, 0.48)
 }
 header {
   background-color: transparent;
@@ -82,11 +82,13 @@ html {
 
   .logo {
     transition: font-size 0.5s ease;
-    font-size: 60px;
+    font-size: 50px;
+    letter-spacing: 0.0425em;
   }
 
   .logo:hover {
-    font-size: 69px;
+    font-size: 60px;
+    color: rgba(87, 227, 56, 0.48)
   }
 }
 
